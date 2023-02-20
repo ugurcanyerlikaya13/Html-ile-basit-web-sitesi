@@ -1,0 +1,216 @@
+<html>
+  <head>
+
+      <title>Anasayfa</title>
+      <link rel="stylesheet" type="text/css" href="stil.css"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="stil.css"/>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script><link rel="stylesheet" href="style.css">
+
+  </head>
+     <body>
+         <div id="sayfa"> <!-- Burada sayfayı çerçeve gibi kaplayacak olan bir div kullandık -->
+         <div id="navbar"> 
+		 <ul class="liste">
+           <li class="listeli"><a href="index.html">Ana sayfa</a></li>
+           <li class="listeli"><a href="deterjan.html">Temizlik Ürünleri</a></li>
+           <li class="listeli"><a href="atistirmalik.html">Atıştırmalık</a></li>
+           <li class="listeli"><a href="gida.html">Temel Gıda</a></li>
+         </ul>
+         </div>
+         <div id="banner">
+         <div id="bannerresim">
+		 <a href="index.html"><!-- logoya tıklandığında anasayfaya gitmesi için link -->
+		 <img src="bannerr.png" height="90px" width="1365px"></img>
+		 </a>
+		 </div>
+		 </div>
+		 </div> 
+		 <!-- bannerin altındaki sepete ekle ve sepeti temizle kısmı -->
+		 <div id="sepet">
+         <div class="row">
+         <div class="col">
+         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Sepet (<span class="total-count"></span>)
+	     </button><button class="clear-cart btn btn-danger">Temizle</button></div>
+         </div></div>
+		 
+		 <!-- ürünleri eklediğimiz kısım -->
+         <div id="icerikkk">
+		 <div class="ürün"><img src="atıştırmalık/a9.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">ETİ Vişneli Pop Kek</h4>
+         <p class="card-text">1.95₺</p>
+		 <!-- bu kısımda ise sepete eklenen ürünün ismi ve fiyat toplanması için data-price girdik -->
+         <a href="#" data-name="ETİ Vişneli Pop Kek" data-price="1.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="atıştırmalık/a2.png" width="300" height="300" class="ürünresmi">
+		 <div class="card-block">
+         <h4 class="card-title">ETİ Nero</h4>
+         <p class="card-text">3.50₺</p>
+         <a href="#" data-name="ETİ Nero" data-price="3.50" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="atıştırmalık/a1.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">Alman Pastası</h4>
+         <p class="card-text">5.95₺</p>
+         <a href="#" data-name="Alman Pastası" data-price="5.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="atıştırmalık/a10.png" width="300" height="300" >
+		 <div class="card-block">
+         <h4 class="card-title">Kit Kat</h4>
+         <p class="card-text">5.95₺</p>
+         <a href="#" data-name="Kit Kat" data-price="5.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="atıştırmalık/a3.png" width="300" height="300">
+	     <div class="card-block">
+         <h4 class="card-title">ETİ Limonlu Pop Kek</h4>
+         <p class="card-text">1.95₺</p>
+         <a href="#" data-name="ETİ Limonlu Pop Kek" data-price="1.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="atıştırmalık/a4.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">ETİ Cin</h4>
+         <p class="card-text">8.00₺</p>
+         <a href="#" data-name="ETİ Cin" data-price="8.00" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="atıştırmalık/a5.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">ETİ Brownie Gold</h4>
+         <p class="card-text">2.00₺</p>
+         <a href="#" data-name="ETİ Brownie Gold" data-price="2.00" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="atıştırmalık/a6.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">Doritos Taco Baharatlı</h4>
+         <p class="card-text">6.95₺</p>
+         <a href="#" data-name="Doritos Taco Baharatlı" data-price="6.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="atıştırmalık/a7.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">Doritos Peynirli</h4>
+         <p class="card-text">6.95₺</p>
+         <a href="#" data-name="Doritos Peynirli" data-price="6.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="atıştırmalık/a11.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">ETİ Karam Gurme</h4>
+         <p class="card-text">2.90₺</p>
+         <a href="#" data-name="ETİ Karam Gurme" data-price="2.90" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="atıştırmalık/a12.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">Coca Cola</h4>
+         <p class="card-text">4.90₺</p>
+         <a href="#" data-name="Coca Cola" data-price="4.90" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="atıştırmalık/a13.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">Fanta 1.5 Lt</h4>
+         <p class="card-text">6.95₺</p>
+         <a href="#" data-name="Fanta 1.5 Lt" data-price="6.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="atıştırmalık/a14.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">Nesquik Kakaolu</h4>
+         <p class="card-text">3.50₺L</p>
+         <a href="#" data-name="Nesquik Kakaolu" data-price="3.50" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="atıştırmalık/a15.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">Red Bull 250 Ml</h4>
+         <p class="card-text">7.95₺</p>
+         <a href="#" data-name="Red Bull" data-price="7.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="atıştırmalık/a16.png" width="300" height="300">
+	     <div class="card-block">
+         <h4 class="card-title">Sprite 1 Lt</h4>
+         <p class="card-text">5.95₺</p>
+         <a href="#" data-name="Sprite" data-price="5.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+		 <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg" role="document">
+         <div class="modal-content">
+         <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel">Sepet</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Kapat">
+         <span aria-hidden="true">&times;</span>
+         </button>
+         </div>
+         <div class="modal-body">
+         <table class="show-cart table">
+         </table>
+         <div>Toplam: <span class="total-cart"></span>TL</div>
+         </div>
+         <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+         <button type="button" class="btn btn-primary">Sipariş Ver</button>
+         </div>
+         </div>
+         </div>
+         </div>
+         </div>
+         <div id="footer">
+          <footer>
+             <div class="container">
+             <div class="sec aboutus">
+             <h2>Hakkımızda</h2>
+             <p>10 Şubat 2020 tarihinden beri en kaliteli ve güvenilir hizmeti esnaf samimiyetiyle sizlere sunmaktan gurur duyarız.</p>
+        
+                             <ul class="sci"> <!-- footerda ki sosyal medya kısmı-->
+                                <li> <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li> <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li> <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li> <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            </ul>
+             </div> 
+                    
+             <div class="sec quickLinks">
+                        <h2>Hızlı Dolaşma</h2>
+                        <ul>
+                            <li><a href="index.html">Anasayfa</a></li>
+                            <li><a href="gida.html">Gıda</a></li>
+                            <li><a href="atistirmalik.html">Atıştırmalık</a></li>
+                            <li><a href="deterjan.html">Deterjan</a></li>
+                            
+                        </ul>
+             </div>
+             <div class="sec contact">
+                        <h2>İletişim</h2>
+                        <ul class="info">
+                            <li>
+                                <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                                <span>Akçay Mahallesi <br>
+                                Erol Sokak Ankara/Kızılcahamam<br>TR</span>
+        
+                            </li>
+                            <li>
+                                <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                               <p>    <a href="tel:+905061618370">05061618370</a> <!-- linke tıklandığında aranması için yönlendirme-->
+                              </p>
+                          <li>
+                                    <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                              <p>   <a href="mailto:kimpagorss@gmail.com">kimpagross@gmail.com</a></p>
+                          </li>
+                          </li>
+                        </ul>
+                    </div>
+        
+                </div>
+        
+        
+            </footer>
+            <div class="copyrightText">
+                <p>
+                    © Copyright KimpaGross Tutorials.  All Rights Reserved. 
+                </p>
+            </div>
+         </div>
+         </div>
+		 <!-- bu script ise ürünleri sepete eklerken yönlendirmek için kullanıldı-->
+         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
+     </body>
+</html>

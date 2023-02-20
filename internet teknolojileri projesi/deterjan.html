@@ -1,0 +1,220 @@
+<html>
+  <head>
+
+      <title>Anasayfa</title>
+      <link rel="stylesheet" type="text/css" href="stil.css"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="stil.css"/>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script><link rel="stylesheet" href="style.css">
+
+  </head>
+     <body>
+         <div id="sayfa"> <!-- Burada sayfayı çerçeve gibi kaplayacak olan bir div kullandık -->
+         <div id="navbar"> 
+		 <ul class="liste">
+           <li class="listeli"><a href="index.html">Ana sayfa</a></li>
+           <li class="listeli"><a href="deterjan.html">Temizlik Ürünleri</a></li>
+           <li class="listeli"><a href="atistirmalik.html">Atıştırmalık</a></li>
+           <li class="listeli"><a href="gida.html">Temel Gıda</a></li>
+         </ul>
+         </div>
+         <div id="banner">
+         <div id="bannerresim">
+		 <a href="index.html"><!-- logoya tıklandığında anasayfaya gitmesi için link -->
+		 <img src="bannerr.png" height="90px" width="1365px"></img>
+		 </a>
+		 </div>
+		 </div>
+		 
+		 
+		 <!-- bannerin altındaki sepete ekle ve sepeti temizle kısmı -->
+		 <div id="sepet">
+         <div class="row">
+         <div class="col">
+         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Sepet (<span class="total-count"></span>)
+	     </button>
+		 <button class="clear-cart btn btn-danger">Temizle</button></div>
+         </div>
+	     </div>
+		 
+		 <!-- ürünleri eklediğimiz kısım -->
+         <div id="icerikkk">
+		 <div class="ürün">
+		 <img src="temizlik_ürünleri/t1.png" width="300" height="300">
+	     <div class="card-block">
+         <h4 class="card-title">Asperox Sarı Güç</h4>
+         <p class="card-text">16.95₺</p>
+		 <!-- bu kısımda ise sepete eklenen ürünün ismi ve fiyat toplanması için data-price girdik -->
+         <a href="#" data-name="Asperox Sarı Güç" data-price="16.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="temizlik_ürünleri/t2.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">Gülşah Aseton</h4>
+         <p class="card-text">20.90₺</p>
+         <a href="#" data-name="Gülşah Aseton" data-price="20.90" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="temizlik_ürünleri/t3.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">ABC Çamaşır Suyu 1Lt</h4>
+         <p class="card-text">7.95₺</p>
+         <a href="#" data-name="ABC Çamaşır Suyu 1Lt" data-price="7.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="temizlik_ürünleri/t4.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">Acord 5'li Sünger</h4>
+         <p class="card-text">5.95₺</p>
+         <a href="#" data-name="Acord 5'li Sünger" data-price="5.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="temizlik_ürünleri/t5.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">ABC Bulaşık Deterjanı</h4>
+         <p class="card-text">10.95₺</p>
+         <a href="#" data-name="ABC Bulaşık Deterjanı" data-price="10.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="temizlik_ürünleri/t6.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">Activex El Sabunu </h4>
+         <p class="card-text">16.76₺</p>
+         <a href="#" data-name="Activex El Sabunu" data-price="16.76" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="temizlik_ürünleri/t7.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">Peros Yüzey Temizleyici 4Lt</h4>
+         <p class="card-text">17.90₺</p>
+         <a href="#" data-name="Peros Yüzey Temizleyici 4Lt" data-price="17.90" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="temizlik_ürünleri/t8.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">Makyaj Temizleme Pamuğu</h4>
+         <p class="card-text">6.95₺</p>
+         <a href="#" data-name="Makyaj Temizleme Pamuğu" data-price="6.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="temizlik_ürünleri/t9.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">ABC Renkli Deterjan 6Kg</h4>
+         <p class="card-text">59.95₺</p>
+         <a href="#" data-name="ABC Renkli Deterjan 6Kg" data-price="59.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="temizlik_ürünleri/t10.png" width="300" height="300">
+	     <div class="card-block">
+         <h4 class="card-title">Air Wick Lavantalı</h4>
+         <p class="card-text">40.90₺</p>
+         <a href="#" data-name="Air Wick Lavantalı" data-price="40.90" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="temizlik_ürünleri/t11.png" width="300" height="300">
+	     <div class="card-block">
+         <h4 class="card-title">Lila 12'li Kağıt Havlu</h4>
+         <p class="card-text">60.90₺</p>
+         <a href="#" data-name="Lila 12'li Kağıt Havlu" data-price="60.90" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="temizlik_ürünleri/t12.png" width="300" height="300">
+	     <div class="card-block">
+         <h4 class="card-title">Bingo Matik 10Kg</h4>
+         <p class="card-text">69.95₺</p>
+         <a href="#" data-name="Bingo Matik 10Kg" data-price="69.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="temizlik_ürünleri/t13.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">Bioblas Procyanidin</h4>
+         <p class="card-text">100₺</p>
+         <a href="#" data-name="Bioblas Procyanidin" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="temizlik_ürünleri/t14.png" width="300" height="300">
+		 <div class="card-block">
+         <h4 class="card-title">ABC Yumuşatıcı</h4>
+         <p class="card-text">60.00₺</p>
+         <a href="#" data-name="ABC Yumuşatıcı 60 Yıkama" data-price="60.00" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+         <div class="ürün"><img src="temizlik_ürünleri/t15.png" width="300" height="300">
+	     <div class="card-block">
+         <h4 class="card-title">3'lü Temizlik Bezi</h4>
+         <p class="card-text">7.95₺</p>
+         <a href="#" data-name="3'lü Temizlik Bezi" data-price="7.95" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+         </div></div>
+		 <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg" role="document">
+         <div class="modal-content">
+         <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel">Sepet</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Kapat">
+         <span aria-hidden="true">&times;</span>
+         </button>
+         </div>
+         <div class="modal-body">
+         <table class="show-cart table">
+         </table>
+         <div>Toplam: <span class="total-cart"></span>TL</div>
+         </div>
+         <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+         <button type="button" class="btn btn-primary">Sipariş Ver</button>
+         </div>
+         </div>
+         </div>
+         </div>
+		 </div>
+         <div id="footer">
+          <footer>
+             <div class="container">
+             <div class="sec aboutus">
+             <h2>Hakkımızda</h2>
+             <p>10 Şubat 2020 tarihinden beri en kaliteli ve güvenilir hizmeti esnaf samimiyetiyle sizlere sunmaktan gurur duyarız.</p>
+        
+                             <ul class="sci"> <!-- footerda ki sosyal medya kısmı-->
+                                <li> <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li> <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li> <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li> <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            </ul>
+             </div> 
+                    
+             <div class="sec quickLinks">
+                        <h2>Hızlı Dolaşma</h2>
+                        <ul>
+                            <li><a href="index.html">Anasayfa</a></li>
+                            <li><a href="gida.html">Gıda</a></li>
+                            <li><a href="atistirmalik.html">Atıştırmalık</a></li>
+                            <li><a href="deterjan.html">Deterjan</a></li>
+                            
+                        </ul>
+             </div>
+             <div class="sec contact">
+                        <h2>İletişim</h2>
+                        <ul class="info">
+                            <li>
+                                <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                                <span>Akçay Mahallesi <br>
+                                Erol Sokak Ankara/Kızılcahamam<br>TR</span>
+        
+                            </li>
+                            <li>
+                                <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                               <p>    <a href="tel:+905061618370">05061618370</a> <!-- linke tıklandığında aranması için yönlendirme-->
+                              </p>
+                          <li>
+                                    <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                              <p>   <a href="mailto:kimpagorss@gmail.com">kimpagross@gmail.com</a></p>
+                          </li>
+                          </li>
+                        </ul>
+                    </div>
+        
+                </div>
+        
+        
+            </footer>
+            <div class="copyrightText">
+                <p>
+                    © Copyright KimpaGross Tutorials.  All Rights Reserved. 
+                </p>
+            </div>
+         </div>
+         </div>
+		 <!-- bu script ise ürünleri sepete eklerken yönlendirmek için kullanıldı-->
+         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
+     </body>
+</html>

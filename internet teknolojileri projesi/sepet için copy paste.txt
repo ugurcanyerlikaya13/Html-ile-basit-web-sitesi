@@ -1,0 +1,116 @@
+<div id="icerikkk">
+			 
+             <div class="ürün"><img src="atıştırmalık/a9.png" width="300" height="300">
+				 <div class="card-block">
+    <h4 class="card-title">Deterjan</h4>
+    <p class="card-text">Fiyat: 100TL</p>
+    <a href="#" data-name="Deterjan" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+  </div></div>
+             <div class="ürün"><img src="atıştırmalık/a2.png" width="300" height="300" class="ürünresmi">
+				<div class="card-block">
+    <h4 class="card-title">Deterjan</h4>
+    <p class="card-text">Fiyat: 100TL</p>
+    <a href="#" data-name="Deterjan" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+  </div></div>
+             <div class="ürün"><img src="atıştırmalık/a1.png" width="300" height="300">
+				<div class="card-block">
+    <h4 class="card-title">Deterjan</h4>
+    <p class="card-text">Fiyat: 100TL</p>
+    <a href="#" data-name="Deterjan" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+  </div></div>
+             <div class="ürün"><img src="atıştırmalık/a10.png" width="300" height="300" >
+				 <div class="card-block">
+    <h4 class="card-title">Deterjan</h4>
+    <p class="card-text">Fiyat: 100TL</p>
+    <a href="#" data-name="Deterjan" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+  </div></div>
+             <div class="ürün"><img src="atıştırmalık/a3.png" width="300" height="300">
+				 <div class="card-block">
+    <h4 class="card-title">Deterjan</h4>
+    <p class="card-text">Fiyat: 100TL</p>
+    <a href="#" data-name="Deterjan" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+  </div></div>
+             <div class="ürün"><img src="atıştırmalık/a4.png" width="300" height="300">
+				 <div class="card-block">
+    <h4 class="card-title">Deterjan</h4>
+    <p class="card-text">Fiyat: 100TL</p>
+    <a href="#" data-name="Deterjan" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+  </div></div>
+             <div class="ürün"><img src="atıştırmalık/a5.png" width="300" height="300">
+				 <div class="card-block">
+    <h4 class="card-title">Deterjan</h4>
+    <p class="card-text">Fiyat: 100TL</p>
+    <a href="#" data-name="Deterjan" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+  </div></div>
+             <div class="ürün"><img src="atıştırmalık/a6.png" width="300" height="300">
+				 <div class="card-block">
+    <h4 class="card-title">Deterjan</h4>
+    <p class="card-text">Fiyat: 100TL</p>
+    <a href="#" data-name="Deterjan" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+  </div></div>
+             <div class="ürün"><img src="atıştırmalık/a7.png" width="300" height="300">
+				 <div class="card-block">
+    <h4 class="card-title">Deterjan</h4>
+    <p class="card-text">Fiyat: 100TL</p>
+    <a href="#" data-name="Deterjan" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+  </div></div>
+             <div class="ürün"><img src="atıştırmalık/a11.png" width="300" height="300">
+				<div class="card-block">
+    <h4 class="card-title">Deterjan</h4>
+    <p class="card-text">Fiyat: 100TL</p>
+    <a href="#" data-name="Deterjan" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+  </div></div>
+             <div class="ürün"><img src="atıştırmalık/a12.png" width="300" height="300">
+				<div class="card-block">
+    <h4 class="card-title">Deterjan</h4>
+    <p class="card-text">Fiyat: 100TL</p>
+    <a href="#" data-name="Deterjan" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+  </div></div>
+             <div class="ürün"><img src="atıştırmalık/a13.png" width="300" height="300">
+				 <div class="card-block">
+    <h4 class="card-title">Deterjan</h4>
+    <p class="card-text">Fiyat: 100TL</p>
+    <a href="#" data-name="Deterjan" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+  </div></div>
+             <div class="ürün"><img src="atıştırmalık/a14.png" width="300" height="300">
+				 <div class="card-block">
+    <h4 class="card-title">Deterjan</h4>
+    <p class="card-text">Fiyat: 100TL</p>
+    <a href="#" data-name="Deterjan" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+  </div></div>
+             <div class="ürün"><img src="atıştırmalık/a15.png" width="300" height="300">
+				 <div class="card-block">
+    <h4 class="card-title">Deterjan</h4>
+    <p class="card-text">Fiyat: 100TL</p>
+    <a href="#" data-name="Deterjan" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+  </div></div>
+             <div class="ürün"><img src="atıştırmalık/a16.png" width="300" height="300">
+				 <div class="card-block">
+    <h4 class="card-title">Deterjan</h4>
+    <p class="card-text">Fiyat: 100TL</p>
+    <a href="#" data-name="Deterjan" data-price="100" class="add-to-cart btn btn-primary">Sepete Ekle</a>
+  </div></div>
+			 <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sepet</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Kapat">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <table class="show-cart table">
+          
+        </table>
+        <div>Toplam: <span class="total-cart"></span>TL</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+        <button type="button" class="btn btn-primary">Sipariş Ver</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>

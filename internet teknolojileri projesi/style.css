@@ -1,0 +1,21 @@
+
+
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+#sepet{
+	position: absolute;
+
+      top: 165px;
+      right: 1px;
+	z-index: 1;
+	
+}
